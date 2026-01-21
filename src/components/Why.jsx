@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from './Container'
+import WhyImg from "../assets/whyimg.png"
 
 const Why = () => {
     return (
@@ -21,7 +22,13 @@ const Why = () => {
                             Why Choose us for best construction experience
                         </h2>
                         </div>
-                       
+                    </div>
+
+                    <div className="py-24">
+                        <div className="">
+                            <img src={WhyImg} alt="" />
+                        </div>
+                        <div className=""></div>
                     </div>
                 </div>
             </Container>
