@@ -5,6 +5,8 @@ import Why from '../components/Why'
 import Our from '../components/Our'
 import Message from '../components/Message'
 import Contact from '../components/Contact'
+import Blog from '../components/Blog'
+import Subscribe from '../components/Subscribe'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
     <Our/>
     <Message/>
     <Contact/>
+    <Blog/>
+    <Subscribe/>
     </>
   )
 }
