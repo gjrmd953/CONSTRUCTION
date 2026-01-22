@@ -4,6 +4,7 @@ import Banner from '../components/Banner'
 import Why from '../components/Why'
 import Our from '../components/Our'
 import Message from '../components/Message'
+import Contact from '../components/Contact'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <Why/>
     <Our/>
     <Message/>
+    <Contact/>
     </>
   )
 }
