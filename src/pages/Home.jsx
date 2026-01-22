@@ -7,6 +7,7 @@ import Message from '../components/Message'
 import Contact from '../components/Contact'
 import Blog from '../components/Blog'
 import Subscribe from '../components/Subscribe'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
     <Contact/>
     <Blog/>
     <Subscribe/>
+    <Footer/>
     </>
   )
 }
