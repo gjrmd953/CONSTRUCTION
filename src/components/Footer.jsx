@@ -5,7 +5,12 @@ const Footer = () => {
   return (
     <div className='py-10'>
         <Container>
-            <h2>footer</h2>
+            <div className="flex justify-between">
+                <div className="">CONSTRUCTION</div>
+                <div className="">Resources</div>
+                <div className="">Company</div>
+                <div className="">Get in touch</div>
+            </div>
 
             <h2 className='text-center'>Copyright construction.com, All rights reserved.</h2>
         </Container>
