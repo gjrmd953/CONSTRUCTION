@@ -34,7 +34,7 @@ const Banner = () => {
                             </div>
                         </div>
 
-                        <div className="flex pt-[112px] gap-10">
+                        <div className="flex pt-28 gap-10">
                             <div className="font-pop">
                                 <div className="absolute">
                                     <img src={FirstImg} alt="" />
@@ -64,7 +64,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="py-[174px] flex justify-between">
+                <div className="py-43.5 flex justify-between">
                         <div className="">
                             <img src={OneImg} alt="" />
                         </div>
