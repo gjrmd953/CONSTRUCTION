@@ -29,7 +29,7 @@ const Why = () => {
                             <img src={WhyImg} alt="" />
                         </div>
                         <div className="w-1/2">
-                            <div className="flex gap-3.5 py-36">
+                            <div className="flex gap-3.5 py-18">
                                 <div className="">
                                     <h2>01</h2>
                                 </div>
@@ -39,7 +39,7 @@ const Why = () => {
                                     </h2>
                                 </div>
                             </div>
-                            <div className="flex gap-3.5 py-36">
+                            <div className="flex gap-3.5 py-18">
                                 <div className="">
                                     <h2>01</h2>
                                 </div>
@@ -49,7 +49,7 @@ const Why = () => {
                                     </h2>
                                 </div>
                             </div>
-                            <div className="flex gap-3.5 py-36">
+                            <div className="flex gap-3.5 py-18">
                                 <div className="">
                                     <h2>01</h2>
                                 </div>
