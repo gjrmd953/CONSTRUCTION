@@ -15,9 +15,15 @@ const Footer = () => {
               You’ll find your next Home <br /> loan valu you prefer.
             </p>
             <div className="flex gap-5">
-              <FaFacebookF className="text-white bg-tertiary p-4 text-2xl" />
-              <FaTwitter />
-              <FaLinkedinIn />
+              <div className="text-white bg-tertiary p-3 rounded-md">
+                <FaFacebookF />
+              </div>
+              <div className="text-white bg-tertiary p-3 rounded-md">
+                <FaTwitter />
+              </div>
+              <div className="text-white bg-tertiary p-3 rounded-md">
+                <FaLinkedinIn />
+              </div>
             </div>
           </div>
           <div className="w-1/5">
@@ -47,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
 
-         <img src={ShapeImg} alt="" />
+        <img src={ShapeImg} alt="" />
         <div className='font-pop text-[#C2C2C2] text-center py-10'>Copyright construction.com, All rights reserved.</div>
       </Container>
     </div>
