@@ -29,7 +29,15 @@ const Footer = () => {
             </ul>
 
           </div>
-          <div className="w-1/5">Company</div>
+          <div className="w-1/5">
+          <h2>Company</h2>
+          <ul className='pt-4'>
+            <li>Patnerships</li>
+            <li>Terms of use</li>
+            <li>Privacy</li>
+            <li>Privacy</li>
+          </ul>
+          </div>
           <div className="w-1/5">Get in touch</div>
         </div>
 
