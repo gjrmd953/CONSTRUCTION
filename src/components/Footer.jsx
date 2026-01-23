@@ -46,10 +46,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-         <div className="">
-          <img src={ShapeImg} alt="" />
-         </div>
-        <div className='text-center py-10 bg-[#f1eeeef9]'>Copyright construction.com, All rights reserved.</div>
+
+         <img src={ShapeImg} alt="" />
+        <div className='font-pop text-[#C2C2C2] text-center py-10'>Copyright construction.com, All rights reserved.</div>
       </Container>
     </div>
   )
