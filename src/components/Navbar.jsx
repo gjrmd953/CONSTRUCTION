@@ -7,7 +7,7 @@ const Navbar = () => {
             <Container>
                 <div className='flex'>
                     <div className="w-1/2">
-                        <h2 className='font-pop font-bold text-2xl text-[#18A7B9] uppercase cursor-pointer'>CONSTRUCTION</h2>
+                        <h2 className='font-pop font-bold text-2xl text-[rgb(24,167,185)] uppercase cursor-pointer'>CONSTRUCTION</h2>
                     </div>
                     <div className="w-1/2">
                         <ul className='flex justify-end gap-7'>

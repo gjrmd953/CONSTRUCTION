@@ -1,19 +1,34 @@
 import React from 'react'
 import Container from './Container'
+import { FaFacebookF, FaInstagramSquare, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+
 
 const Footer = () => {
   return (
     <div className='py-10'>
-        <Container>
-            <div className="flex justify-between">
-                <div className="">CONSTRUCTION</div>
-                <div className="">Resources</div>
-                <div className="">Company</div>
-                <div className="">Get in touch</div>
+      <Container>
+        <div className="flex justify-between">
+          <div className="w-2/5">
+            <h2 className='font-pop font-bold text-2xl text-[rgb(24,167,185)] uppercase cursor-pointer'>CONSTRUCTION</h2>
+            <p className='font-pop text-secondary pt-8 pb-10'>
+              You’ll find your next Home <br /> loan valu you prefer.
+            </p>
+            <div className="flex gap-5">
+              <FaFacebookF className='p-4 bg-tertiary text-white' />
+              <FaTwitter />
+              <FaLinkedinIn />
             </div>
+          </div>
+          <div className="w-1/5">
+            <h2>Resources</h2>
 
-            <h2 className='text-center'>Copyright construction.com, All rights reserved.</h2>
-        </Container>
+          </div>
+          <div className="w-1/5">Company</div>
+          <div className="w-1/5">Get in touch</div>
+        </div>
+
+        <h2 className='text-center'>Copyright construction.com, All rights reserved.</h2>
+      </Container>
     </div>
   )
 }
