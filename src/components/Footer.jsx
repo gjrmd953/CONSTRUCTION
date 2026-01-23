@@ -38,7 +38,12 @@ const Footer = () => {
             <li>Privacy</li>
           </ul>
           </div>
-          <div className="w-1/5">Get in touch</div>
+          <div className="w-1/5">
+          <h2 className='pb-4'>Get in touch</h2>
+          <ul>
+            <li>Enter your mail</li>
+          </ul>
+          </div>
         </div>
 
         <h2 className='text-center'>Copyright construction.com, All rights reserved.</h2>
