@@ -14,13 +14,19 @@ const Footer = () => {
               You’ll find your next Home <br /> loan valu you prefer.
             </p>
             <div className="flex gap-5">
-              <FaFacebookF className='p-4 bg-tertiary text-white' />
+              <FaFacebookF className="text-white bg-tertiary p-4 text-2xl" />
               <FaTwitter />
               <FaLinkedinIn />
             </div>
           </div>
           <div className="w-1/5">
-            <h2>Resources</h2>
+          <h2>Resources</h2>
+            <ul className='py-3'>
+              <li>Our Agents</li>
+              <li>Member Stories</li>
+              <li>Video</li>
+              <li>Free trial</li>
+            </ul>
 
           </div>
           <div className="w-1/5">Company</div>
