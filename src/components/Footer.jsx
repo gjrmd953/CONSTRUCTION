@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from './Container'
 import { FaFacebookF, FaInstagramSquare, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import ShapeImg from "../assets/shape.png"
 
 
 const Footer = () => {
@@ -20,7 +21,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-1/5">
-          <h2>Resources</h2>
+            <h2>Resources</h2>
             <ul className='py-3'>
               <li>Our Agents</li>
               <li>Member Stories</li>
@@ -30,23 +31,25 @@ const Footer = () => {
 
           </div>
           <div className="w-1/5">
-          <h2>Company</h2>
-          <ul className='pt-4'>
-            <li>Patnerships</li>
-            <li>Terms of use</li>
-            <li>Privacy</li>
-            <li>Privacy</li>
-          </ul>
+            <h2>Company</h2>
+            <ul className='pt-4'>
+              <li>Patnerships</li>
+              <li>Terms of use</li>
+              <li>Privacy</li>
+              <li>Privacy</li>
+            </ul>
           </div>
           <div className="w-1/5">
-          <h2 className='pb-4'>Get in touch</h2>
-          <ul>
-            <li>Enter your mail</li>
-          </ul>
+            <h2 className='pb-4'>Get in touch</h2>
+            <ul>
+              <li>Enter your mail</li>
+            </ul>
           </div>
         </div>
-
-        <h2 className='text-center'>Copyright construction.com, All rights reserved.</h2>
+         <div className="">
+          <img src={ShapeImg} alt="" />
+         </div>
+        <div className='text-center py-10 bg-[#f1eeeef9]'>Copyright construction.com, All rights reserved.</div>
       </Container>
     </div>
   )
