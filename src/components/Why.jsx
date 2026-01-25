@@ -2,6 +2,7 @@ import React from 'react'
 import Container from './Container'
 import WhyImg from "../assets/whyimg.png"
 import ReImgOne from "../assets/reone.png"
+import ReImgTwo from "../assets/retwo.png"
 
 const Why = () => {
     return (
@@ -45,12 +46,13 @@ const Why = () => {
                                 </div>
                             </div>
                             <div className="flex gap-3.5 py-18">
-                                <div className="">
-                                    <h2 className='font-pop font-semibold text-7xl text-primary pr-9'>02</h2>
+                                <div className="relative pr-5">
+                                    <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-6 '>02</h2>
+                                    <img src={ReImgTwo} alt="" className='' />
                                 </div>
                                 <div className="">
-                                    <h2>
-                                        And residence for met the estimable disposing. Mean if he they been no hold mr. Is at much do made took held help.
+                                    <h2 className='pl-9 font-pop text-[18px] text-secondary'>
+                                        Up maids me an ample stood given. <br /> Certainty say suffering his him <br /> collected intention promotion.
                                     </h2>
                                 </div>
                             </div>
