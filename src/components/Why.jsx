@@ -31,7 +31,7 @@ const Why = () => {
                         <div className="w-1/2">
                             <div className="flex gap-3.5 py-18">
                                 <div className="">
-                                    <h2>01</h2>
+                                    <h2 className='font-pop font-semibold text-7xl text-primary pr-9'>01</h2>
                                 </div>
                                 <div className="">
                                     <h2>
@@ -41,7 +41,7 @@ const Why = () => {
                             </div>
                             <div className="flex gap-3.5 py-18">
                                 <div className="">
-                                    <h2>01</h2>
+                                    <h2 className='font-pop font-semibold text-7xl text-primary pr-9'>02</h2>
                                 </div>
                                 <div className="">
                                     <h2>
@@ -51,7 +51,7 @@ const Why = () => {
                             </div>
                             <div className="flex gap-3.5 py-18">
                                 <div className="">
-                                    <h2>01</h2>
+                                    <h2 className='font-pop font-semibold text-7xl text-primary pr-9'>03</h2>
                                 </div>
                                 <div className="">
                                     <h2>
@@ -59,7 +59,7 @@ const Why = () => {
                                     </h2>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
