@@ -6,8 +6,8 @@ const Subscribe = () => {
         <div className='py-14'>
             <Container>
                 <div className="text-center">
-                    <h2>
-                        Subscribe to our
+                    <h2 className='font-pop text-[56px] text-primary font-medium'>
+                        Subscribe to our <br />
                         Newsletter
                     </h2>
                     <p>
