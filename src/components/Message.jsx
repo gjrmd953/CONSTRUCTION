@@ -4,10 +4,10 @@ import MesImg from "../assets/message.png"
 
 const Message = () => {
     return (
-        <div className='py-44'>
+        <div className='py-44 bg-[url(/assets/message.png)]'>
             <Container>
                 <h2>Message from CEO</h2>
-                <img src={MesImg} alt="" />
+                
             </Container>
         </div>
     )
