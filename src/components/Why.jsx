@@ -36,7 +36,7 @@ const Why = () => {
                         
                             <div className="flex gap-3.5 py-18 items-center ">
                                 <div className="relative pr-5">
-                                    <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-6 '>01</h2>
+                                    <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-7.5'>01</h2>
                                     <img src={ReImgOne} alt="" className='' />
 
 
@@ -50,7 +50,7 @@ const Why = () => {
 
                             <div className="flex gap-3.5 py-18">
                                 <div className="relative pr-5">
-                                    <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-6 '>02</h2>
+                                    <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-7.5 '>02</h2>
                                     <img src={ReImgTwo} alt="" className='' />
                                 </div>
                                 <div className="">
@@ -62,7 +62,7 @@ const Why = () => {
 
                             <div className="flex gap-3.5 py-18">
                                 <div className="relative pr-5">
-                                    <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-6 '>03</h2>
+                                    <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-7 '>03</h2>
                                     <img src={ReImgThree} alt="" className='' />
                                 </div>
                                 <div className="">
