@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from './Container'
 import WhyImg from "../assets/whyimg.png"
+import ReImgOne from "../assets/reone.png"
 
 const Why = () => {
     return (
@@ -28,14 +29,18 @@ const Why = () => {
                         <div className="w-1/2">
                             <img src={WhyImg} alt="" />
                         </div>
+
                         <div className="w-1/2">
-                            <div className="flex gap-3.5 py-18">
-                                <div className="">
-                                    <h2 className='font-pop font-semibold text-7xl text-primary pr-9'>01</h2>
+                            <div className="flex gap-3.5 py-18 items-center ">
+                                <div className="relative pr-5">
+                                    <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-6 '>01</h2>
+                                    <img src={ReImgOne} alt="" className='' />
+
+
                                 </div>
                                 <div className="">
-                                    <h2>
-                                        And residence for met the estimable disposing. Mean if he they been no hold mr. Is at much do made took held help.
+                                    <h2 className='pl-9 font-pop text-[18px] text-secondary'>
+                                        And residence for met the estimable <br /> disposing. Mean if he they been no hold <br /> mr. Is at much do made took held help.
                                     </h2>
                                 </div>
                             </div>
@@ -59,6 +64,7 @@ const Why = () => {
                                     </h2>
                                 </div>
                             </div>
+
 
                         </div>
                     </div>
