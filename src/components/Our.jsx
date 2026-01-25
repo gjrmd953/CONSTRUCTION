@@ -6,11 +6,11 @@ const Our = () => {
     <div className='py-2.5'>
         <Container>
             <div className="text-center pb-20">
-                <h2>
+                <h2 className='font-pop font-semibold text-[54px] text-primary pb-7'>
                     Our Best Engineers
                 </h2>
-                <p>
-                    Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary.
+                <p className='font-pop text-2xl text-secondary'>
+                    Blessing welcomed ladyship she met humoured sir breeding her. Six <br /> curiosity day assurance bed necessary.
                 </p>
             </div>
             <div className="flex justify-between">
