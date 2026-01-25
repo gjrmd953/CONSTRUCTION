@@ -3,6 +3,7 @@ import Container from './Container'
 import WhyImg from "../assets/whyimg.png"
 import ReImgOne from "../assets/reone.png"
 import ReImgTwo from "../assets/retwo.png"
+import ReImgThree from "../assets/rethree.png"
 
 const Why = () => {
     return (
@@ -32,6 +33,7 @@ const Why = () => {
                         </div>
 
                         <div className="w-1/2">
+                        
                             <div className="flex gap-3.5 py-18 items-center ">
                                 <div className="relative pr-5">
                                     <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-6 '>01</h2>
@@ -45,6 +47,7 @@ const Why = () => {
                                     </h2>
                                 </div>
                             </div>
+
                             <div className="flex gap-3.5 py-18">
                                 <div className="relative pr-5">
                                     <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-6 '>02</h2>
@@ -56,13 +59,15 @@ const Why = () => {
                                     </h2>
                                 </div>
                             </div>
+
                             <div className="flex gap-3.5 py-18">
-                                <div className="">
-                                    <h2 className='font-pop font-semibold text-7xl text-primary pr-9'>03</h2>
+                                <div className="relative pr-5">
+                                    <h2 className='font-pop font-semibold text-7xl text-primary absolute -top-6 left-6 '>03</h2>
+                                    <img src={ReImgThree} alt="" className='' />
                                 </div>
                                 <div className="">
-                                    <h2>
-                                        And residence for met the estimable disposing. Mean if he they been no hold mr. Is at much do made took held help.
+                                    <h2 className='pl-9 font-pop text-[18px] text-secondary'>
+                                        Good draw knew bred ham busy his <br /> hour. Ask agreed answer rather joy <br /> nature admire wisdom.
                                     </h2>
                                 </div>
                             </div>
