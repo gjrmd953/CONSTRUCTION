@@ -12,8 +12,8 @@ const Blog = () => {
                 Lattest Blogs
             </h2>
             <div className="flex justify-between">
-              <img src={BlgImg1} alt="" />
-              <img src={BlgImg2} alt="" />
+              {/* <img src={BlgImg1} alt="" />
+              <img src={BlgImg2} alt="" /> */}
             </div>
            </div>
         </Container>
